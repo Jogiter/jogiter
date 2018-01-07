@@ -1,6 +1,6 @@
 {
   "name": "jogiter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jogiter cli",
   "main": "index.js",
   "scripts": {
