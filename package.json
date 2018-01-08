@@ -1,6 +1,6 @@
 {
   "name": "jogiter",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "jogiter cli",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "download-git-repo": "^1.0.1"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Jogiter/jogiter.git"
+    "type": "git",
+    "url": "https://github.com/Jogiter/jogiter.git"
   }
 }

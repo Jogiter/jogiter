@@ -15,7 +15,7 @@ npm install -g jogiter
 
 # usage
 
->jogiter <command> username/repo [project-name]
+>jogiter command [username/repo] [project-name]
 
 # dependences
 
