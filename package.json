@@ -1,23 +1,18 @@
 {
   "name": "jogiter",
   "version": "1.1.2",
-  "description": "jogiter cli",
+  "description": "download a git repository to a destination folder",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --fix *.js"
   },
   "bin": {
-    "jogiter": "./bin/jogiter.js",
-    "jogiter-init": "./bin/jogiter-init.js"
+    "jogiter": "./index.js"
   },
-  "keywords": [
-    "jogiter",
-    "cli"
-  ],
+  "keywords": ["jogiter", "cli"],
   "author": "jogiter",
   "license": "MIT",
   "devDependencies": {
-    "chalk": "^2.3.0",
     "eslint": "^4.15.0",
     "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-plugin-import": "^2.8.0",
@@ -26,7 +21,7 @@
     "eslint-plugin-standard": "^3.0.1"
   },
   "dependencies": {
-    "commander": "^2.12.2",
+    "meow": "^4.0.0",
     "download-git-repo": "^1.0.1"
   },
   "repository": {
