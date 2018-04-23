@@ -1,10 +1,10 @@
 {
   "name": "jogiter",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "jogiter cli",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint index.js bin lib"
+    "lint": "eslint --fix *.js"
   },
   "bin": {
     "jogiter": "./bin/jogiter.js",
